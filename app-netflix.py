@@ -9,7 +9,7 @@ DATA_URL = ('movies.csv')
 
 
 @st.cache
-def load_data(nrows):|
+def load_data(nrows):
     data = pd.read_csv(DATA_URL, nrows=nrows)
     def lowercase(x): return str(x).lower()
     return data
