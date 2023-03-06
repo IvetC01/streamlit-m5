@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('Cicle Rides in NYC')
+st.title('Cicle Rides in NYC / Ivet Ceballos Gonzalez A01066960')
 
 DATA_URL = ('citibike-tripdata.csv')
 
